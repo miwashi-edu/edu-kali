@@ -1,6 +1,7 @@
 # edu-kali
 
-[https://www.kali.org/](Kali)
+[Kali](https://www.kali.org/)
+[Installera hacker verktyg i kali](https://www.kali.org/docs/containers/official-kalilinux-docker-images/)
 
 ## Docker
 
@@ -24,6 +25,10 @@
 ```bash
 docker pull kalilinux/kali-rolling:latest
 docker run --name kali  -t -i kalilinux/kali-rolling
+
+# I Kali
+apt update
+apt -y install kali-linux-headless
 
 # ctrl-d (end of file) för att avsluta.
 ````
